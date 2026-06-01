@@ -5,7 +5,7 @@ export const siteConfig = {
     "PointPilot helps Indian travellers turn credit card reward points into the most valuable flight redemptions — compare transfer partners, ratios and estimated award value in seconds.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://pointpilot.vercel.app",
+    "https://pointpilot-sigma.vercel.app",
   ogImage: "/og.png",
   keywords: [
     "credit card points India",
