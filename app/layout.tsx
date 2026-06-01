@@ -4,6 +4,7 @@ import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { siteConfig } from "@/lib/site";
+import { webApplicationJsonLd } from "@/lib/seo";
 import "./globals.css";
 
 const serif = Fraunces({
@@ -77,6 +78,12 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="flex min-h-screen flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(webApplicationJsonLd()),
+          }}
+        />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />

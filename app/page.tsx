@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Hero } from "@/components/landing/hero";
 import { HowItWorks } from "@/components/landing/how-it-works";
+import { PlatformModules } from "@/components/landing/platform-modules";
 import { SupportedCards } from "@/components/landing/supported-cards";
 import { PartnerAirlines } from "@/components/landing/partner-airlines";
 import { CallToAction } from "@/components/landing/cta";
@@ -18,6 +19,7 @@ export default function HomePage() {
     <>
       <Hero />
       <HowItWorks />
+      <PlatformModules />
       <SupportedCards />
       <PartnerAirlines />
       <CallToAction />

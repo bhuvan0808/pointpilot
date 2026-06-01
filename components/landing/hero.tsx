@@ -18,28 +18,26 @@ export function Hero() {
             <span className="text-primary">already have.</span>
           </h1>
           <p className="mt-5 max-w-md text-lg leading-relaxed text-muted-foreground">
-            PointPilot turns your credit card reward points into the most
-            valuable flight redemptions. Pick your card, your route, and we&apos;ll
-            rank the best airline transfer partners — instantly and for free.
+            The complete travel-rewards platform for Indian travellers. Search award
+            flights worldwide, optimise your cards, compare transfer partners, track
+            status and more — instantly, and for free.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg">
-              <Link href="/finder">
-                Find my best redemption
+              <Link href="/award-search">
+                Search award flights
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/#how-it-works">See how it works</Link>
+              <Link href="/#tools">Explore all tools</Link>
             </Button>
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
-            <span className="font-medium text-foreground">
-              {cards.length} premium cards
-            </span>{" "}
-            · 8 airline programmes · no sign-up, no fees
+            <span className="font-medium text-foreground">10 free tools</span> ·{" "}
+            {cards.length} premium cards · global airport search · no sign-up
           </p>
         </div>
 

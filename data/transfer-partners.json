@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "description": "Enrichment layer for airline transfer partners: typical transfer times, historical/active transfer bonuses, sweet spots and recommended uses. Ratios live in cards.json. Illustrative, reviewed May 2026.",
+    "lastReviewed": "2026-05"
+  },
+  "airlines": {
+    "krisflyer": {
+      "transferTime": "Instant – 48 hours",
+      "typicalValue": 1.05,
+      "sweetSpots": [
+        "India → Japan/Korea in Business via Singapore",
+        "Saver Economy to Southeast Asia",
+        "Singapore Suites with a Spontaneous Escapes discount"
+      ],
+      "recommendedUse": "India → Japan in Business is the headline redemption — strong availability and great value.",
+      "bonuses": [
+        { "date": "Mar 2026", "bonus": "15% transfer bonus", "note": "From Amex MR during a quarterly promotion." },
+        { "date": "Nov 2025", "bonus": "20% transfer bonus", "note": "Festive-season bonus from select bank partners." }
+      ]
+    },
+    "avios-qr": {
+      "transferTime": "Instant – 24 hours",
+      "typicalValue": 0.95,
+      "sweetSpots": [
+        "Qsuite Business to Europe via Doha",
+        "Short hops to the Gulf for few Avios",
+        "Off-peak award pricing"
+      ],
+      "recommendedUse": "Use Avios for Qsuite Business to Europe — among the best premium-cabin values from India.",
+      "bonuses": [
+        { "date": "Feb 2026", "bonus": "30% transfer bonus", "note": "Periodic Avios transfer bonus across partners." }
+      ]
+    },
+    "avios-ba": {
+      "transferTime": "Instant – 24 hours",
+      "typicalValue": 0.85,
+      "sweetSpots": [
+        "Short-haul reward flights on partners",
+        "Off-peak economy to the UK",
+        "Avios + companion voucher pairings"
+      ],
+      "recommendedUse": "Best for short-haul partner flights; beware high fuel surcharges into London.",
+      "bonuses": [
+        { "date": "Jan 2026", "bonus": "25% transfer bonus", "note": "New-year Avios bonus." }
+      ]
+    },
+    "etihad": {
+      "transferTime": "Instant – 24 hours",
+      "typicalValue": 0.8,
+      "sweetSpots": [
+        "Business class to Abu Dhabi",
+        "Frequent transfer-bonus windows",
+        "Stopover programmes in Abu Dhabi"
+      ],
+      "recommendedUse": "Watch for frequent transfer bonuses, then book Gulf Business at a discount.",
+      "bonuses": [
+        { "date": "Apr 2026", "bonus": "20% transfer bonus", "note": "Etihad Guest promotional window." }
+      ]
+    },
+    "flyingblue": {
+      "transferTime": "Instant – 24 hours",
+      "typicalValue": 0.75,
+      "sweetSpots": [
+        "Monthly Promo Rewards (up to 50% off)",
+        "India → Europe in Economy/Business",
+        "Intra-Europe partner awards"
+      ],
+      "recommendedUse": "Always check Flying Blue Promo Rewards before transferring — the discount can be huge.",
+      "bonuses": [
+        { "date": "Monthly", "bonus": "Promo Rewards", "note": "Rotating routes discounted up to 50% each month." }
+      ]
+    },
+    "skywards": {
+      "transferTime": "Instant – 72 hours",
+      "typicalValue": 0.9,
+      "sweetSpots": [
+        "Non-stop Business from any Indian metro",
+        "Cash + Miles flexibility",
+        "Emirates A380 experience"
+      ],
+      "recommendedUse": "Convenient for non-stop Emirates Business when availability is tight elsewhere.",
+      "bonuses": [
+        { "date": "Dec 2025", "bonus": "Bonus Skywards Miles", "note": "Seasonal transfer promotion." }
+      ]
+    },
+    "flyingreturns": {
+      "transferTime": "Instant – 48 hours",
+      "typicalValue": 0.7,
+      "sweetSpots": [
+        "Domestic India award flights",
+        "Non-stop India → USA/Europe",
+        "Star Alliance partner redemptions"
+      ],
+      "recommendedUse": "Unbeatable for domestic hops and non-stop long-haul on Air India metal.",
+      "bonuses": [
+        { "date": "Oct 2025", "bonus": "10% transfer bonus", "note": "Maharaja Club promotional transfer." }
+      ]
+    },
+    "milesandsmiles": {
+      "transferTime": "Instant – 24 hours",
+      "typicalValue": 0.95,
+      "sweetSpots": [
+        "Star Alliance Business to the US via Istanbul",
+        "Low partner-award pricing",
+        "Generous stopover in Istanbul"
+      ],
+      "recommendedUse": "Great Star Alliance redemptions to North America at low mileage — book partner space.",
+      "bonuses": [
+        { "date": "May 2026", "bonus": "30% transfer bonus", "note": "Miles&Smiles transfer-bonus window." }
+      ]
+    }
+  }
+}

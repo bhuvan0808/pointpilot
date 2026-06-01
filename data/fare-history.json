@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "description": "Representative historical low round-trip Economy cash fares (INR) by month for popular routes, used to give fare-alert context. Illustrative, reviewed May 2026.",
+    "lastReviewed": "2026-05"
+  },
+  "routes": {
+    "MAA-NRT": {
+      "typicalLowINR": 48000,
+      "history": [
+        { "month": "Jan", "fareINR": 52000 },
+        { "month": "Feb", "fareINR": 49000 },
+        { "month": "Mar", "fareINR": 47000 },
+        { "month": "Apr", "fareINR": 51000 },
+        { "month": "May", "fareINR": 55000 },
+        { "month": "Jun", "fareINR": 58000 }
+      ]
+    },
+    "DEL-LHR": {
+      "typicalLowINR": 62000,
+      "history": [
+        { "month": "Jan", "fareINR": 64000 },
+        { "month": "Feb", "fareINR": 60000 },
+        { "month": "Mar", "fareINR": 63000 },
+        { "month": "Apr", "fareINR": 67000 },
+        { "month": "May", "fareINR": 72000 },
+        { "month": "Jun", "fareINR": 78000 }
+      ]
+    },
+    "BOM-DXB": {
+      "typicalLowINR": 22000,
+      "history": [
+        { "month": "Jan", "fareINR": 24000 },
+        { "month": "Feb", "fareINR": 21000 },
+        { "month": "Mar", "fareINR": 22000 },
+        { "month": "Apr", "fareINR": 25000 },
+        { "month": "May", "fareINR": 27000 },
+        { "month": "Jun", "fareINR": 29000 }
+      ]
+    },
+    "BLR-SIN": {
+      "typicalLowINR": 28000,
+      "history": [
+        { "month": "Jan", "fareINR": 30000 },
+        { "month": "Feb", "fareINR": 27000 },
+        { "month": "Mar", "fareINR": 28000 },
+        { "month": "Apr", "fareINR": 31000 },
+        { "month": "May", "fareINR": 33000 },
+        { "month": "Jun", "fareINR": 35000 }
+      ]
+    }
+  }
+}

@@ -5,11 +5,14 @@
     "regions": [
       "domestic",
       "south-asia",
+      "central-asia",
       "middle-east",
       "southeast-asia",
       "east-asia",
       "europe",
+      "africa",
       "north-america",
+      "south-america",
       "oceania"
     ]
   },
@@ -25,7 +28,10 @@
         "east-asia": 27000,
         "europe": 34000,
         "north-america": 43000,
-        "oceania": 32000
+        "oceania": 32000,
+        "central-asia": 15525,
+        "africa": 35700,
+        "south-america": 47300
       }
     },
     {
@@ -39,7 +45,10 @@
         "east-asia": 30000,
         "europe": 26000,
         "north-america": 45000,
-        "oceania": 41000
+        "oceania": 41000,
+        "central-asia": 12650,
+        "africa": 27300,
+        "south-america": 49500
       }
     },
     {
@@ -53,7 +62,10 @@
         "east-asia": 31000,
         "europe": 25000,
         "north-america": 47000,
-        "oceania": 43000
+        "oceania": 43000,
+        "central-asia": 13800,
+        "africa": 26250,
+        "south-america": 51700
       }
     },
     {
@@ -67,7 +79,10 @@
         "east-asia": 32000,
         "europe": 33000,
         "north-america": 48000,
-        "oceania": 44000
+        "oceania": 44000,
+        "central-asia": 10350,
+        "africa": 34650,
+        "south-america": 52800
       }
     },
     {
@@ -81,7 +96,10 @@
         "east-asia": 33000,
         "europe": 25000,
         "north-america": 44000,
-        "oceania": 45000
+        "oceania": 45000,
+        "central-asia": 16100,
+        "africa": 26250,
+        "south-america": 48400
       }
     },
     {
@@ -95,7 +113,10 @@
         "east-asia": 34000,
         "europe": 36000,
         "north-america": 50000,
-        "oceania": 46000
+        "oceania": 46000,
+        "central-asia": 11500,
+        "africa": 37800,
+        "south-america": 55000
       }
     },
     {
@@ -109,7 +130,10 @@
         "east-asia": 29000,
         "europe": 30000,
         "north-america": 40000,
-        "oceania": 42000
+        "oceania": 42000,
+        "central-asia": 14950,
+        "africa": 31500,
+        "south-america": 44000
       }
     },
     {
@@ -123,7 +147,10 @@
         "east-asia": 30000,
         "europe": 22500,
         "north-america": 42500,
-        "oceania": 44000
+        "oceania": 44000,
+        "central-asia": 14375,
+        "africa": 23625,
+        "south-america": 46750
       }
     }
   ]

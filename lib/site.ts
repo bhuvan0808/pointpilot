@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "PointPilot",
-  tagline: "Fly further on the points you already have.",
+  tagline: "The travel rewards platform for Indian travellers.",
   description:
-    "PointPilot helps Indian travellers turn credit card reward points into the most valuable flight redemptions — compare transfer partners, ratios and estimated award value in seconds.",
+    "PointPilot is the complete travel-rewards platform for Indian travellers: award flight search, credit card optimisation, transfer partner analysis, hotel redemptions, lounge access, airline status tracking and fare alerts — free, no login.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
     "https://pointpilot-sigma.vercel.app",

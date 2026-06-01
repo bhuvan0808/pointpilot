@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "description": "Hand-picked example award redemptions to showcase strong value. Illustrative, reviewed May 2026.",
+    "lastReviewed": "2026-05"
+  },
+  "awards": [
+    { "from": "DEL", "fromCity": "Delhi", "to": "NRT", "toCity": "Tokyo", "airlineId": "krisflyer", "cabin": "Business", "milesRoundTrip": 108000, "taxesINR": 14000, "cashFareINR": 320000, "note": "India → Japan in Business via Singapore — a classic sweet spot." },
+    { "from": "BOM", "fromCity": "Mumbai", "to": "CDG", "toCity": "Paris", "airlineId": "flyingblue", "cabin": "Business", "milesRoundTrip": 100000, "taxesINR": 22000, "cashFareINR": 280000, "note": "Flying Blue Promo Rewards can slash this by up to 50%." },
+    { "from": "MAA", "fromCity": "Chennai", "to": "LHR", "toCity": "London", "airlineId": "avios-qr", "cabin": "Business", "milesRoundTrip": 120000, "taxesINR": 18000, "cashFareINR": 300000, "note": "Qsuite Business to Europe via Doha." },
+    { "from": "BLR", "fromCity": "Bengaluru", "to": "SIN", "toCity": "Singapore", "airlineId": "krisflyer", "cabin": "Economy", "milesRoundTrip": 32000, "taxesINR": 7000, "cashFareINR": 34000, "note": "Saver Economy to Southeast Asia." },
+    { "from": "DEL", "fromCity": "Delhi", "to": "JFK", "toCity": "New York", "airlineId": "milesandsmiles", "cabin": "Business", "milesRoundTrip": 90000, "taxesINR": 16000, "cashFareINR": 360000, "note": "Star Alliance Business to the US via Istanbul at low mileage." },
+    { "from": "HYD", "fromCity": "Hyderabad", "to": "DXB", "toCity": "Dubai", "airlineId": "skywards", "cabin": "Business", "milesRoundTrip": 70000, "taxesINR": 12000, "cashFareINR": 95000, "note": "Non-stop Emirates Business to the Gulf." }
+  ]
+}

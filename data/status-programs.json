@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "description": "Airline elite-status programmes and tier thresholds (qualifying units per membership year). Illustrative, reviewed May 2026.",
+    "lastReviewed": "2026-05"
+  },
+  "programs": [
+    {
+      "id": "krisflyer",
+      "airlineId": "krisflyer",
+      "name": "Singapore KrisFlyer",
+      "unit": "Elite miles",
+      "tiers": [
+        { "name": "KrisFlyer", "threshold": 0 },
+        { "name": "Elite Silver", "threshold": 25000 },
+        { "name": "Elite Gold", "threshold": 50000 }
+      ]
+    },
+    {
+      "id": "flyingblue",
+      "airlineId": "flyingblue",
+      "name": "Air France–KLM Flying Blue",
+      "unit": "XP",
+      "tiers": [
+        { "name": "Explorer", "threshold": 0 },
+        { "name": "Silver", "threshold": 100 },
+        { "name": "Gold", "threshold": 180 },
+        { "name": "Platinum", "threshold": 300 }
+      ]
+    },
+    {
+      "id": "qatar-privilege",
+      "airlineId": "avios-qr",
+      "name": "Qatar Privilege Club",
+      "unit": "Qpoints",
+      "tiers": [
+        { "name": "Burgundy", "threshold": 0 },
+        { "name": "Silver", "threshold": 250 },
+        { "name": "Gold", "threshold": 500 },
+        { "name": "Platinum", "threshold": 950 }
+      ]
+    },
+    {
+      "id": "flyingreturns",
+      "airlineId": "flyingreturns",
+      "name": "Air India Maharaja Club",
+      "unit": "Points",
+      "tiers": [
+        { "name": "Base", "threshold": 0 },
+        { "name": "Silver Edge", "threshold": 20000 },
+        { "name": "Golden Edge", "threshold": 40000 },
+        { "name": "Platinum Edge", "threshold": 75000 }
+      ]
+    },
+    {
+      "id": "skywards",
+      "airlineId": "skywards",
+      "name": "Emirates Skywards",
+      "unit": "Tier miles",
+      "tiers": [
+        { "name": "Blue", "threshold": 0 },
+        { "name": "Silver", "threshold": 25000 },
+        { "name": "Gold", "threshold": 50000 },
+        { "name": "Platinum", "threshold": 150000 }
+      ]
+    },
+    {
+      "id": "milesandsmiles",
+      "airlineId": "milesandsmiles",
+      "name": "Turkish Miles&Smiles",
+      "unit": "Status miles",
+      "tiers": [
+        { "name": "Classic", "threshold": 0 },
+        { "name": "Classic Plus", "threshold": 25000 },
+        { "name": "Elite", "threshold": 40000 },
+        { "name": "Elite Plus", "threshold": 80000 }
+      ]
+    }
+  ]
+}
