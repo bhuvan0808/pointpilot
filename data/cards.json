@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "description": "Transfer partners and ratios for popular Indian travel credit cards. Ratio is expressed as milesPerPoint (airline miles received for every 1 card point/mile). Data is illustrative and last reviewed in May 2026 — banks revise partners and ratios often, so always verify in your card's rewards portal before transferring.",
+    "lastReviewed": "2026-05"
+  },
+  "cards": [
+    {
+      "id": "hsbc-travelone",
+      "name": "HSBC TravelOne",
+      "issuer": "HSBC",
+      "currency": "Reward Points",
+      "network": "Visa / Mastercard",
+      "annualFee": 4999,
+      "earnRate": "3 points per ₹100 spent",
+      "baseValuePerPoint": 0.5,
+      "tone": "from-red-800 to-stone-900",
+      "tagline": "Broad 1:1 transfers across airlines and hotels.",
+      "partners": [
+        { "airlineId": "krisflyer", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "avios-qr", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "avios-ba", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "etihad", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "flyingblue", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "skywards", "ratio": 1, "display": "1 : 1" }
+      ]
+    },
+    {
+      "id": "axis-atlas",
+      "name": "Axis Atlas",
+      "issuer": "Axis Bank",
+      "currency": "EDGE Miles",
+      "network": "Visa Infinite",
+      "annualFee": 5000,
+      "earnRate": "2 EDGE Miles per ₹100 (5x on travel)",
+      "baseValuePerPoint": 1.0,
+      "tone": "from-amber-700 to-stone-900",
+      "tagline": "Travel-first card with strong Air India and Gulf transfers.",
+      "partners": [
+        { "airlineId": "flyingreturns", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "etihad", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "krisflyer", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "avios-qr", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "skywards", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "milesandsmiles", "ratio": 0.5, "display": "2 : 1" }
+      ]
+    },
+    {
+      "id": "amex-mr",
+      "name": "Amex Membership Rewards",
+      "issuer": "American Express",
+      "currency": "Membership Rewards",
+      "network": "American Express",
+      "annualFee": 4500,
+      "earnRate": "1 MR point per ₹50 spent",
+      "baseValuePerPoint": 0.5,
+      "tone": "from-emerald-800 to-stone-900",
+      "tagline": "Flexible points with reliable airline and hotel partners.",
+      "partners": [
+        { "airlineId": "krisflyer", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "flyingblue", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "etihad", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "avios-ba", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "milesandsmiles", "ratio": 1, "display": "1 : 1" }
+      ]
+    },
+    {
+      "id": "hdfc-infinia",
+      "name": "HDFC Infinia",
+      "issuer": "HDFC Bank",
+      "currency": "Reward Points",
+      "network": "Visa Infinite",
+      "annualFee": 12500,
+      "earnRate": "5 points per ₹150 spent",
+      "baseValuePerPoint": 1.0,
+      "tone": "from-stone-800 to-zinc-900",
+      "tagline": "Premium points worth ₹1 each on SmartBuy flights.",
+      "partners": [
+        { "airlineId": "flyingreturns", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "krisflyer", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "avios-qr", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "skywards", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "flyingblue", "ratio": 0.5, "display": "2 : 1" }
+      ]
+    },
+    {
+      "id": "icici-emeralde",
+      "name": "ICICI Emeralde Private",
+      "issuer": "ICICI Bank",
+      "currency": "Emeralde Reward Points",
+      "network": "Visa Infinite / Amex",
+      "annualFee": 12499,
+      "earnRate": "6 points per ₹200 spent",
+      "baseValuePerPoint": 1.0,
+      "tone": "from-teal-800 to-stone-900",
+      "tagline": "Metal card with curated airline and hotel transfers.",
+      "partners": [
+        { "airlineId": "krisflyer", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "flyingreturns", "ratio": 1, "display": "1 : 1" },
+        { "airlineId": "avios-ba", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "etihad", "ratio": 0.5, "display": "2 : 1" },
+        { "airlineId": "milesandsmiles", "ratio": 0.5, "display": "2 : 1" }
+      ]
+    }
+  ]
+}

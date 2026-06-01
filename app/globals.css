@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 38% 94%;
+    --foreground: 28 18% 16%;
+
+    --card: 42 46% 97%;
+    --card-foreground: 28 18% 16%;
+
+    --primary: 12 55% 42%;
+    --primary-foreground: 40 44% 96%;
+
+    --secondary: 40 30% 86%;
+    --secondary-foreground: 28 22% 22%;
+
+    --muted: 40 26% 89%;
+    --muted-foreground: 30 12% 38%;
+
+    --accent: 184 26% 30%;
+    --accent-foreground: 40 44% 96%;
+
+    --destructive: 0 60% 42%;
+    --destructive-foreground: 40 44% 96%;
+
+    --border: 38 24% 78%;
+    --input: 38 24% 78%;
+    --ring: 12 55% 42%;
+
+    --radius: 0.4rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    /* faint paper grain */
+    background-image: radial-gradient(
+      hsl(var(--foreground) / 0.025) 1px,
+      transparent 1px
+    );
+    background-size: 4px 4px;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.2);
+  }
+}
+
+@layer components {
+  /* dashed ticket divider used on cards and section breaks */
+  .ticket-divider {
+    background-image: linear-gradient(
+      to right,
+      hsl(var(--border)) 50%,
+      transparent 50%
+    );
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    height: 1px;
+  }
+
+  .label-caps {
+    @apply text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground;
+  }
+
+  /* hairline rule under section eyebrows */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.22em] text-primary;
+  }
+}

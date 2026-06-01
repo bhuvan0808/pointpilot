@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "description": "Estimated redemption values per frequent-flyer program. valuePerMile is the rupee value we assume for one airline mile when redeemed well. awardChart lists a typical one-way Economy Saver award cost (in miles) for each route region. All figures are illustrative averages reviewed in May 2026; real award pricing is dynamic.",
+    "lastReviewed": "2026-05",
+    "regions": [
+      "domestic",
+      "south-asia",
+      "middle-east",
+      "southeast-asia",
+      "east-asia",
+      "europe",
+      "north-america",
+      "oceania"
+    ]
+  },
+  "redemptions": [
+    {
+      "airlineId": "krisflyer",
+      "valuePerMile": 1.05,
+      "awardChart": {
+        "domestic": 7500,
+        "south-asia": 9000,
+        "middle-east": 13500,
+        "southeast-asia": 16000,
+        "east-asia": 27000,
+        "europe": 34000,
+        "north-america": 43000,
+        "oceania": 32000
+      }
+    },
+    {
+      "airlineId": "avios-qr",
+      "valuePerMile": 0.95,
+      "awardChart": {
+        "domestic": 8000,
+        "south-asia": 9500,
+        "middle-east": 11000,
+        "southeast-asia": 19000,
+        "east-asia": 30000,
+        "europe": 26000,
+        "north-america": 45000,
+        "oceania": 41000
+      }
+    },
+    {
+      "airlineId": "avios-ba",
+      "valuePerMile": 0.85,
+      "awardChart": {
+        "domestic": 8000,
+        "south-asia": 10000,
+        "middle-east": 12000,
+        "southeast-asia": 20000,
+        "east-asia": 31000,
+        "europe": 25000,
+        "north-america": 47000,
+        "oceania": 43000
+      }
+    },
+    {
+      "airlineId": "etihad",
+      "valuePerMile": 0.8,
+      "awardChart": {
+        "domestic": 8500,
+        "south-asia": 10500,
+        "middle-east": 9000,
+        "southeast-asia": 21000,
+        "east-asia": 32000,
+        "europe": 33000,
+        "north-america": 48000,
+        "oceania": 44000
+      }
+    },
+    {
+      "airlineId": "flyingblue",
+      "valuePerMile": 0.75,
+      "awardChart": {
+        "domestic": 9000,
+        "south-asia": 11000,
+        "middle-east": 14000,
+        "southeast-asia": 22000,
+        "east-asia": 33000,
+        "europe": 25000,
+        "north-america": 44000,
+        "oceania": 45000
+      }
+    },
+    {
+      "airlineId": "skywards",
+      "valuePerMile": 0.9,
+      "awardChart": {
+        "domestic": 8000,
+        "south-asia": 10000,
+        "middle-east": 10000,
+        "southeast-asia": 22500,
+        "east-asia": 34000,
+        "europe": 36000,
+        "north-america": 50000,
+        "oceania": 46000
+      }
+    },
+    {
+      "airlineId": "flyingreturns",
+      "valuePerMile": 0.7,
+      "awardChart": {
+        "domestic": 6000,
+        "south-asia": 8500,
+        "middle-east": 13000,
+        "southeast-asia": 18000,
+        "east-asia": 29000,
+        "europe": 30000,
+        "north-america": 40000,
+        "oceania": 42000
+      }
+    },
+    {
+      "airlineId": "milesandsmiles",
+      "valuePerMile": 0.95,
+      "awardChart": {
+        "domestic": 7500,
+        "south-asia": 9500,
+        "middle-east": 12500,
+        "southeast-asia": 20000,
+        "east-asia": 30000,
+        "europe": 22500,
+        "north-america": 42500,
+        "oceania": 44000
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "description": "Frequent-flyer programs popular with travellers flying out of India. Values are illustrative and change frequently — always confirm on the airline's own site before transferring.",
+    "lastReviewed": "2026-05"
+  },
+  "airlines": [
+    {
+      "id": "krisflyer",
+      "name": "Singapore Airlines",
+      "program": "KrisFlyer",
+      "alliance": "Star Alliance",
+      "region": "Southeast Asia",
+      "code": "SQ",
+      "highlight": "Excellent premium-cabin availability and Saver award sweet spots to SE Asia and beyond.",
+      "tone": "from-amber-700"
+    },
+    {
+      "id": "avios-qr",
+      "name": "Qatar Airways",
+      "program": "Privilege Club (Avios)",
+      "alliance": "oneworld",
+      "region": "Middle East",
+      "code": "QR",
+      "highlight": "Qsuite business class to Europe and the Americas via Doha; strong Avios value.",
+      "tone": "from-rose-800"
+    },
+    {
+      "id": "avios-ba",
+      "name": "British Airways",
+      "program": "Executive Club (Avios)",
+      "alliance": "oneworld",
+      "region": "Europe",
+      "code": "BA",
+      "highlight": "Short-haul Avios redemptions and reward-flight savers into London.",
+      "tone": "from-sky-900"
+    },
+    {
+      "id": "etihad",
+      "name": "Etihad Airways",
+      "program": "Etihad Guest",
+      "alliance": "Independent",
+      "region": "Middle East",
+      "code": "EY",
+      "highlight": "Frequent transfer-bonus promotions and easy Gulf connections.",
+      "tone": "from-stone-700"
+    },
+    {
+      "id": "flyingblue",
+      "name": "Air France–KLM",
+      "program": "Flying Blue",
+      "alliance": "SkyTeam",
+      "region": "Europe",
+      "code": "AF",
+      "highlight": "Monthly Promo Rewards can cut European award costs by up to 50%.",
+      "tone": "from-indigo-900"
+    },
+    {
+      "id": "skywards",
+      "name": "Emirates",
+      "program": "Skywards",
+      "alliance": "Independent",
+      "region": "Middle East",
+      "code": "EK",
+      "highlight": "Dense network from every Indian metro; reliable cash-plus-miles options.",
+      "tone": "from-red-900"
+    },
+    {
+      "id": "flyingreturns",
+      "name": "Air India",
+      "program": "Maharaja Club (Flying Returns)",
+      "alliance": "Star Alliance",
+      "region": "Domestic & Long-haul",
+      "code": "AI",
+      "highlight": "Best for domestic India hops and non-stop long-haul to the US and Europe.",
+      "tone": "from-orange-800"
+    },
+    {
+      "id": "milesandsmiles",
+      "name": "Turkish Airlines",
+      "program": "Miles&Smiles",
+      "alliance": "Star Alliance",
+      "region": "Europe",
+      "code": "TK",
+      "highlight": "Star Alliance partner awards to Europe and North America at low mileage.",
+      "tone": "from-emerald-900"
+    }
+  ]
+}

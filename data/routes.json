@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "description": "Departure cities (Indian metros) and popular destinations grouped by award-chart region. cashFareINR is a representative round-trip Economy cash fare used to estimate the value you unlock. Figures are illustrative and reviewed in May 2026.",
+    "lastReviewed": "2026-05"
+  },
+  "cities": [
+    { "code": "DEL", "name": "Delhi" },
+    { "code": "BOM", "name": "Mumbai" },
+    { "code": "BLR", "name": "Bengaluru" },
+    { "code": "HYD", "name": "Hyderabad" },
+    { "code": "MAA", "name": "Chennai" },
+    { "code": "CCU", "name": "Kolkata" },
+    { "code": "GOI", "name": "Goa" },
+    { "code": "AMD", "name": "Ahmedabad" },
+    { "code": "PNQ", "name": "Pune" },
+    { "code": "COK", "name": "Kochi" }
+  ],
+  "destinations": [
+    { "code": "DEL", "name": "Delhi", "country": "India", "region": "domestic", "cashFareINR": 9000, "sweetSpotCabin": "Economy" },
+    { "code": "BOM", "name": "Mumbai", "country": "India", "region": "domestic", "cashFareINR": 9000, "sweetSpotCabin": "Economy" },
+    { "code": "BLR", "name": "Bengaluru", "country": "India", "region": "domestic", "cashFareINR": 8000, "sweetSpotCabin": "Economy" },
+    { "code": "GOI", "name": "Goa", "country": "India", "region": "domestic", "cashFareINR": 8500, "sweetSpotCabin": "Economy" },
+    { "code": "SXR", "name": "Srinagar", "country": "India", "region": "domestic", "cashFareINR": 11000, "sweetSpotCabin": "Economy" },
+    { "code": "IXL", "name": "Leh", "country": "India", "region": "domestic", "cashFareINR": 13000, "sweetSpotCabin": "Economy" },
+    { "code": "IXZ", "name": "Port Blair", "country": "India", "region": "domestic", "cashFareINR": 14000, "sweetSpotCabin": "Economy" },
+
+    { "code": "CMB", "name": "Colombo", "country": "Sri Lanka", "region": "south-asia", "cashFareINR": 22000, "sweetSpotCabin": "Economy" },
+    { "code": "MLE", "name": "Malé", "country": "Maldives", "region": "south-asia", "cashFareINR": 30000, "sweetSpotCabin": "Economy" },
+    { "code": "KTM", "name": "Kathmandu", "country": "Nepal", "region": "south-asia", "cashFareINR": 18000, "sweetSpotCabin": "Economy" },
+    { "code": "DAC", "name": "Dhaka", "country": "Bangladesh", "region": "south-asia", "cashFareINR": 16000, "sweetSpotCabin": "Economy" },
+
+    { "code": "DXB", "name": "Dubai", "country": "UAE", "region": "middle-east", "cashFareINR": 28000, "sweetSpotCabin": "Economy" },
+    { "code": "AUH", "name": "Abu Dhabi", "country": "UAE", "region": "middle-east", "cashFareINR": 27000, "sweetSpotCabin": "Economy" },
+    { "code": "DOH", "name": "Doha", "country": "Qatar", "region": "middle-east", "cashFareINR": 26000, "sweetSpotCabin": "Business" },
+
+    { "code": "SIN", "name": "Singapore", "country": "Singapore", "region": "southeast-asia", "cashFareINR": 32000, "sweetSpotCabin": "Business" },
+    { "code": "BKK", "name": "Bangkok", "country": "Thailand", "region": "southeast-asia", "cashFareINR": 24000, "sweetSpotCabin": "Economy" },
+    { "code": "DPS", "name": "Bali (Denpasar)", "country": "Indonesia", "region": "southeast-asia", "cashFareINR": 38000, "sweetSpotCabin": "Economy" },
+    { "code": "KUL", "name": "Kuala Lumpur", "country": "Malaysia", "region": "southeast-asia", "cashFareINR": 26000, "sweetSpotCabin": "Economy" },
+    { "code": "HKT", "name": "Phuket", "country": "Thailand", "region": "southeast-asia", "cashFareINR": 30000, "sweetSpotCabin": "Economy" },
+
+    { "code": "HND", "name": "Tokyo", "country": "Japan", "region": "east-asia", "cashFareINR": 70000, "sweetSpotCabin": "Business" },
+    { "code": "ICN", "name": "Seoul", "country": "South Korea", "region": "east-asia", "cashFareINR": 55000, "sweetSpotCabin": "Business" },
+    { "code": "HKG", "name": "Hong Kong", "country": "Hong Kong", "region": "east-asia", "cashFareINR": 45000, "sweetSpotCabin": "Economy" },
+
+    { "code": "LHR", "name": "London", "country": "United Kingdom", "region": "europe", "cashFareINR": 75000, "sweetSpotCabin": "Business" },
+    { "code": "CDG", "name": "Paris", "country": "France", "region": "europe", "cashFareINR": 70000, "sweetSpotCabin": "Business" },
+    { "code": "FRA", "name": "Frankfurt", "country": "Germany", "region": "europe", "cashFareINR": 68000, "sweetSpotCabin": "Business" },
+    { "code": "IST", "name": "Istanbul", "country": "Türkiye", "region": "europe", "cashFareINR": 50000, "sweetSpotCabin": "Economy" },
+    { "code": "ZRH", "name": "Zurich", "country": "Switzerland", "region": "europe", "cashFareINR": 72000, "sweetSpotCabin": "Business" },
+
+    { "code": "JFK", "name": "New York", "country": "USA", "region": "north-america", "cashFareINR": 110000, "sweetSpotCabin": "Business" },
+    { "code": "SFO", "name": "San Francisco", "country": "USA", "region": "north-america", "cashFareINR": 120000, "sweetSpotCabin": "Business" },
+    { "code": "YYZ", "name": "Toronto", "country": "Canada", "region": "north-america", "cashFareINR": 105000, "sweetSpotCabin": "Business" },
+
+    { "code": "SYD", "name": "Sydney", "country": "Australia", "region": "oceania", "cashFareINR": 90000, "sweetSpotCabin": "Business" },
+    { "code": "MEL", "name": "Melbourne", "country": "Australia", "region": "oceania", "cashFareINR": 92000, "sweetSpotCabin": "Business" }
+  ]
+}
